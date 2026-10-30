@@ -1,0 +1,47 @@
+{
+  "dataset": "data/output/events_full_real.jsonl",
+  "benchmark": "SPY",
+  "price_date_range": {
+    "start": "2020-01-02",
+    "end": "2022-12-30"
+  },
+  "method": "Absolute stock daily return minus SPY daily return; events mapped to the first available trading day on or after publication date; repeated events aggregated to one ticker/trading-day observation.",
+  "observations": 2972,
+  "spearman_rho": 0.01846092370812876,
+  "spearman_p_value": 0.3143775470744341,
+  "impact_buckets": [
+    {
+      "impact_bucket": "1-3",
+      "pair_count": 2733,
+      "mean_abs_abnormal_return": 0.01630206250293733,
+      "median_abs_abnormal_return": 0.010572663590146969
+    },
+    {
+      "impact_bucket": "4-6",
+      "pair_count": 152,
+      "mean_abs_abnormal_return": 0.01740533206681885,
+      "median_abs_abnormal_return": 0.011265890630855258
+    },
+    {
+      "impact_bucket": "7-10",
+      "pair_count": 15,
+      "mean_abs_abnormal_return": 0.029799589234908958,
+      "median_abs_abnormal_return": 0.018439720604852883
+    }
+  ],
+  "counts": {
+    "events_read": 121070,
+    "no_ticker": 65933,
+    "before_price_range": 3504,
+    "no_return_available": 2,
+    "matched_event_records": 51631,
+    "unique_ticker_day_pairs": 2972,
+    "repeated_records_collapsed": 48659
+  },
+  "caveats": [
+    "This is retrospective association, not evidence of predictive power or causation.",
+    "Daily close-to-close returns may include price movements before an event was published.",
+    "Multiple events on a ticker/trading day are aggregated; this does not remove all dependence between observations.",
+    "Events with no ticker or no usable price match are excluded."
+  ]
+}

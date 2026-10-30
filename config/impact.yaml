@@ -1,0 +1,28 @@
+# Impact = clip(round(1 + 9 * S * R * (w_sent*|sentiment| + w_cred*credibility + w_nov*novelty)), 1, 10)
+weights:
+  abs_sentiment: 0.4
+  credibility: 0.3
+  novelty: 0.3
+severity:
+  Geopolitical: 0.90
+  Macroeconomic: 0.80
+  Credit Event: 0.95
+  Merger/Acquisition: 0.70
+  Regulatory/Legal: 0.65
+  Operational/Cyber: 0.70
+  Earnings: 0.55
+  Product Launch: 0.35
+  Other: 0.20
+relevance:
+  direct_entity: 1.0
+  sector_level: 0.6
+  none: 0.4
+source_credibility:
+  news: 0.85
+  social: 0.45
+novelty:
+  window_hours: 24
+  # novelty = 1 / (1 + number_of_similar_items_already_seen_in_window)
+sentiment_label_thresholds:
+  positive: 0.25
+  negative: -0.25

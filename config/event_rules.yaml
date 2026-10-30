@@ -1,0 +1,21 @@
+# Keyword rules for the rule-based event classifier (ENG-04) and sector-level linking.
+# Matched as whole words/phrases on lowercased text. Order = tie-break priority.
+event_keywords:
+  Credit Event: [default, defaults, bankruptcy, chapter 11, downgrade, downgraded, credit rating, insolvency, distressed, restructuring, covenant, debt crisis, bank run]
+  Geopolitical: [war, invasion, sanctions, missile, military, conflict, tensions, ceasefire, embargo, geopolitical, tariff, tariffs, opec, strait]
+  Macroeconomic: [fed, federal reserve, inflation, interest rate, interest rates, rate hike, rate cut, gdp, recession, unemployment, cpi, jobs report, treasury yields, central bank, fomc]
+  Regulatory/Legal: [sec, lawsuit, sues, sued, antitrust, probe, investigation, regulator, regulators, settlement, doj, ftc, subpoena, fined]
+  Merger/Acquisition: [acquire, acquires, acquisition, merger, takeover, buyout, divest, spin-off, spinoff, to buy]
+  Operational/Cyber: [outage, hack, hacked, cyberattack, breach, recall, ransomware, explosion, strike, shutdown, supply chain, production halt, data leak]
+  Earnings: [earnings, revenue, profit, quarterly, eps, guidance, beats estimates, misses estimates, forecast, results]
+  Product Launch: [launch, launches, unveil, unveils, new product, rollout, releases, debut]
+sector_keywords:
+  Energy: [oil, crude, opec, natural gas, refinery, energy prices]
+  Financials: [bank, banks, banking, lender, lenders, brokerage]
+  Technology: [chip, chips, semiconductor, semiconductors, software, cloud, ai]
+  Healthcare: [fda, drug, drugs, vaccine, pharma, clinical trial]
+  Industrials: [airline, airlines, aerospace, aircraft, manufacturing]
+  Consumer: [retail, retailer, consumer spending, e-commerce, grocery]
+sentiment:
+  backend: auto        # auto | finbert | vader (auto falls back to vader if FinBERT cannot load)
+  finbert_model: ProsusAI/finbert

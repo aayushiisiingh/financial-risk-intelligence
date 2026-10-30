@@ -1,0 +1,18 @@
+# 15 S&P 100 names used for entity linking. Aliases are lowercase match strings.
+stocks:
+  - {ticker: AAPL, name: Apple, sector: Technology, aliases: [apple, iphone]}
+  - {ticker: MSFT, name: Microsoft, sector: Technology, aliases: [microsoft, azure]}
+  - {ticker: NVDA, name: NVIDIA, sector: Technology, aliases: [nvidia]}
+  - {ticker: AMZN, name: Amazon, sector: Consumer, aliases: [amazon, aws]}
+  - {ticker: TSLA, name: Tesla, sector: Consumer, aliases: [tesla]}
+  - {ticker: JPM, name: JPMorgan Chase, sector: Financials, aliases: [jpmorgan, jp morgan, chase]}
+  - {ticker: BAC, name: Bank of America, sector: Financials, aliases: [bank of america, bofa]}
+  - {ticker: GS, name: Goldman Sachs, sector: Financials, aliases: [goldman sachs, goldman]}
+  - {ticker: XOM, name: Exxon Mobil, sector: Energy, aliases: [exxon, exxon mobil]}
+  - {ticker: CVX, name: Chevron, sector: Energy, aliases: [chevron]}
+  - {ticker: JNJ, name: Johnson & Johnson, sector: Healthcare, aliases: [johnson & johnson, j&j]}
+  - {ticker: PFE, name: Pfizer, sector: Healthcare, aliases: [pfizer]}
+  - {ticker: WMT, name: Walmart, sector: Consumer, aliases: [walmart]}
+  - {ticker: KO, name: Coca-Cola, sector: Consumer, aliases: [coca-cola, coca cola, coke]}
+  - {ticker: BA, name: Boeing, sector: Industrials, aliases: [boeing]}
+market_benchmark: SPY

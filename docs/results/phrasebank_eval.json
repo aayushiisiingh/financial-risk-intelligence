@@ -1,0 +1,6 @@
+{
+  "n": 1500,
+  "file": "all-data.csv",
+  "vader_macro_f1": 0.47964472504572714,
+  "finbert_macro_f1_OPTIMISTIC_train_overlap": 0.8550813357093663
+}

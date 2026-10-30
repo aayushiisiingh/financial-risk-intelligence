@@ -1,0 +1,37 @@
+{
+  "dataset": "data/output/events_full_real.jsonl",
+  "benchmark": "SPY",
+  "method": "Anchor at the last shared stock/SPY close on or before event publication date. Calculate returns over the next 1 and 5 shared trading sessions. Compare stock returns with SPY returns. Aggregate events by ticker and publication date using mean impact.",
+  "forward_evaluations": {
+    "1d": {
+      "observations": 3749,
+      "spearman_rho": 0.007978678718612502,
+      "spearman_p_value": 0.6252863682277114,
+      "mean_abs_abnormal_return": 0.0161335715670058,
+      "median_abs_abnormal_return": 0.010256326072611066,
+      "mean_directional_abnormal_return": 0.000926513491270365
+    },
+    "5d": {
+      "observations": 3749,
+      "spearman_rho": 0.006190453049412936,
+      "spearman_p_value": 0.7047524962464208,
+      "mean_abs_abnormal_return": 0.03639844100229409,
+      "median_abs_abnormal_return": 0.02458244161561096,
+      "mean_directional_abnormal_return": 0.00328349050911617
+    }
+  },
+  "counts": {
+    "events_read": 121070,
+    "no_ticker": 65933,
+    "before_price_range": 3504,
+    "matched_ticker_event_dates": 3749,
+    "event_records_aggregated": 51633
+  },
+  "caveats": [
+    "Retrospective association is not proof of prediction or causation.",
+    "Daily closing prices cannot identify intraday price movements.",
+    "Events sharing a ticker and publication date are aggregated.",
+    "Overlapping 5-session return windows are not independent.",
+    "Only events with a ticker and sufficient stock/SPY price history are included."
+  ]
+}

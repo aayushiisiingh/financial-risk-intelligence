@@ -1,0 +1,65 @@
+{
+  "dataset": "data/output/events_full_real.jsonl",
+  "total_events": 121070,
+  "invalid_json_lines": 0,
+  "unique_event_ids": 121070,
+  "duplicate_event_ids": 0,
+  "with_ticker": 55137,
+  "without_ticker": 65933,
+  "ticker_coverage_percent": 45.54,
+  "events_by_source": {
+    "stock_tweets_clean": 69301,
+    "reuters_clean": 32684,
+    "guardian_clean": 17800,
+    "cnbc_clean": 1285
+  },
+  "events_by_class": {
+    "Other": 101829,
+    "Earnings": 5993,
+    "Macroeconomic": 3441,
+    "Geopolitical": 2887,
+    "Regulatory/Legal": 2357,
+    "Merger/Acquisition": 2003,
+    "Product Launch": 1046,
+    "Operational/Cyber": 1030,
+    "Credit Event": 484
+  },
+  "ticker_match_methods": {
+    "none": 60070,
+    "cashtag": 42049,
+    "alias": 13041,
+    "sector_level": 5863,
+    "fuzzy": 47
+  },
+  "mean_match_confidence_by_method": {
+    "none": 0.0,
+    "sector_level": 0.5,
+    "alias": 0.8169,
+    "fuzzy": 0.9317,
+    "cashtag": 0.98
+  },
+  "top_tickers": {
+    "TSLA": 37547,
+    "AAPL": 5735,
+    "AMZN": 4643,
+    "MSFT": 1679,
+    "BA": 1439,
+    "NVDA": 1315,
+    "JPM": 485,
+    "GS": 436,
+    "WMT": 403,
+    "KO": 303,
+    "JNJ": 299,
+    "BAC": 281,
+    "XOM": 272,
+    "PFE": 165,
+    "CVX": 135
+  },
+  "high_impact_event_count_score_7_to_10": 271,
+  "low_impact_event_count_score_1_to_2": 108939,
+  "notes": [
+    "This is a descriptive audit, not a manually verified accuracy evaluation.",
+    "Ticker presence does not prove the ticker assignment is correct.",
+    "Inspect event text and source context before labeling a match as wrong."
+  ]
+}

@@ -1,0 +1,20 @@
+# ILLUSTRATIVE shocks, not forecasts. Analogues are broad historical references only.
+scenarios:
+  - scenario_id: GEO_SHOCK
+    trigger: {event_class: Geopolitical, min_impact: 7}
+    shocks: {equity_pct: -0.10, rate_bps: -25, credit_spread_bps: 80, pd_multiplier: 1.5, fx_pct: 0.02}
+    sector_overlays: {Energy: {equity_pct: 0.05}, Industrials: {equity_pct: -0.15}}
+    cooldown_minutes: 60
+    rationale: "Risk-off with flight to quality; analogues: 2022 oil/Ukraine shock, March 2020 risk-off."
+  - scenario_id: MACRO_RATE_SHOCK
+    trigger: {event_class: Macroeconomic, min_impact: 7}
+    shocks: {equity_pct: -0.06, rate_bps: 200, credit_spread_bps: 40, pd_multiplier: 1.25, fx_pct: 0.03}
+    sector_overlays: {Financials: {equity_pct: 0.02}, Technology: {equity_pct: -0.10}}
+    cooldown_minutes: 60
+    rationale: "Rates up sharply; analogue: 2022 hiking cycle."
+  - scenario_id: CREDIT_EVENT_SHOCK
+    trigger: {event_class: Credit Event, min_impact: 7}
+    shocks: {equity_pct: -0.12, rate_bps: -50, credit_spread_bps: 150, pd_multiplier: 2.0, fx_pct: 0.01}
+    sector_overlays: {Financials: {equity_pct: -0.18}}
+    cooldown_minutes: 60
+    rationale: "Credit stress in financials; analogue: 2023 regional bank stress."

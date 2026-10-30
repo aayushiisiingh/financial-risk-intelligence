@@ -1,0 +1,201 @@
+event_id,published_at,source,source_type,ticker,entity_name,match_method,match_confidence,sentiment,sentiment_score,event_class,event_confidence,impact_score,text
+58a6749dc8bd83f5,2018-03-16T23:20:00Z,cnbc_clean,news,BA,Boeing,alias,0.9,negative,-0.9186,Geopolitical,0.65,8.0,United Technologies CEO: A tit-for-tat tariff battle would be a problem for customers like Boeing
+4ee9caca78f8e759,2018-03-28T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.9503,Credit Event,0.65,9.0,"Tesla shares dive again, stung by fatal crash, credit downgrade"
+977fe574a79ab6c8,2018-04-04T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.9416,Geopolitical,0.65,9.0,"U.S.-China trade war could hit German automakers, plus Tesla, Ford"
+fa2fa9e06463de45,2018-04-04T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,negative,-0.9426,Geopolitical,0.65,9.0,Boeing shares fall after China announces tariffs on U.S. planes
+72a87855ba829efa,2018-04-24T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.9504,Operational/Cyber,0.65,7.0,Apple shares drop on more warnings from iPhone supply chain
+bdde6ed188c12eef,2018-04-24T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,positive,0.8399,Merger/Acquisition,0.65,7.0,Ryanair agrees to buy 25 more Boeing 737 MAX planes
+aa86c1c71316d042,2018-04-27T00:00:00Z,reuters_clean,news,AMZN,Amazon,alias,0.9,positive,0.7874,Macroeconomic,0.65,7.0,Amazon boosts stocks as U.S. 10-year Treasury yields retreat
+3376262e903ffdfd,2018-04-27T23:11:00Z,cnbc_clean,news,AAPL,Apple,alias,0.9,negative,-0.6315,Geopolitical,0.65,8.0,Cramer: Apple has the most to lose from a trade war
+c6fb7fe7c3c889c6,2018-05-04T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,positive,0.5466,Macroeconomic,0.65,7.0,Wall St. rallies as inflation fears ebb; Apple hits record high
+9f5a612ce5730fe8,2018-06-26T00:00:00Z,reuters_clean,news,XOM,Exxon Mobil,alias,0.9,negative,-0.9427,Geopolitical,0.65,9.0,"Chevron, Exxon CEOs worry global trade conflict could harm economy"
+1b16dd46ec5cc551,2018-06-26T00:00:00Z,reuters_clean,news,CVX,Chevron,alias,0.9,negative,-0.9427,Geopolitical,0.65,9.0,"Chevron, Exxon CEOs worry global trade conflict could harm economy"
+ec677b69c27f2d06,2018-07-10T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,positive,0.4232,Geopolitical,0.65,7.0,Tesla moves first to hike prices in China as trade war hits car makers
+d7fb56d2df0fef2f,2018-07-13T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,positive,0.8038,Geopolitical,0.65,8.0,Goldman sees 60 percent chance of more U.S. tariffs on China
+4c9577167b63f83d,2018-07-15T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,negative,-0.3191,Geopolitical,0.65,7.0,"Boeing concerned about tariff talk, but no business impact yet"
+661a30f001dd66df,2018-07-16T00:00:00Z,reuters_clean,news,AMZN,Amazon,alias,0.9,negative,-0.8661,Operational/Cyber,0.65,7.0,"Amazon workers strike in Germany, joining action in Spain and Poland"
+13e713f75e91c9f5,2018-07-17T16:43:00Z,cnbc_clean,news,BAC,Bank of America,alias,0.9,positive,0.9284,Macroeconomic,0.65,8.0,"GDP could rise to 4 percent in Q2 thanks to business-friendly policies, Bank of America CEO says"
+8c01db650d30054f,2018-07-19T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.936,Geopolitical,0.65,9.0,Exclusive: Tesla's battery maker suspends cobalt supplier amid sanctions concern
+df60c06e51c4e26f,2018-07-21T00:00:00Z,reuters_clean,news,AMZN,Amazon,alias,0.9,positive,0.6513,Geopolitical,0.65,8.0,"Amazon, Toyota, Alcoa and others working to counter Trump's tariff plans"
+99571ec229ede8d6,2018-07-24T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.9301,Credit Event,0.65,9.0,Cost to insure Tesla's debt rises on growing default fears
+8055de8e047b6ce9,2018-08-01T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.8665,Geopolitical,0.65,8.0,Stocks sink amid trade war fears but Apple results cap losses
+9e9130611cf4c708,2018-08-07T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.9336,Merger/Acquisition,0.65,7.0,Tesla buyout would add to year of pain for short-sellers
+9fad7323a8bdf462,2018-08-27T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.9399,Merger/Acquisition,0.65,7.0,Tesla shares dip 3 percent after Musk abandons buyout
+63f700f0d811af6d,2018-09-07T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.8518,Geopolitical,0.65,8.0,Apple says U.S. tariffs on China would hit 'wide range' of products
+d11437330e42a566,2018-09-07T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.8795,Geopolitical,0.65,7.0,"Wall Street drops on tariff worries, with Apple in crosshairs"
+c04815aa264c2bf8,2018-09-21T00:00:00Z,reuters_clean,news,WMT,Walmart,alias,0.9,negative,-0.8235,Geopolitical,0.65,8.0,Walmart warns Trump tariffs may force price hikes: letter
+7967a5638bb5a9f9,2018-10-02T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.6953,Geopolitical,0.65,8.0,Tesla worried by China tariffs even as deliveries surge
+936f422e540cc376,2018-10-18T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,positive,0.7176,Macroeconomic,0.65,7.0,Goldman Sachs sees five more Fed rate hikes through end of 2019
+4072531a8a72a7f3,2018-11-02T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,positive,0.6293,Geopolitical,0.65,8.0,"Tesla develops plan to make 3,000 Model 3s per week in Shanghai to cut tariff impact"
+d76246d785803a66,2018-11-05T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,negative,-0.9115,Credit Event,0.65,9.0,Goldman downgrade overshadows Italian bank Intesa's strong stress test
+d4cea7ab1820dd14,2018-11-06T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,negative,-0.8497,Geopolitical,0.65,8.0,"Boeing, Airbus fret over trade war as China displays aviation ambitions"
+7bd83ec79a827676,2018-11-22T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.6767,Geopolitical,0.8,8.0,Tesla cuts China car prices to absorb hit from trade war tariffs
+1623631ac9167b86,2018-11-27T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.8667,Macroeconomic,0.65,7.0,"Fed official frets over risks to Apple Pay, other mobile payments"
+20035f5c80df2e41,2018-12-06T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,positive,0.485,Geopolitical,0.65,7.0,"Exclusive: Tesla, smarting from trade war, seeks bids for China Gigafactory construction"
+22fb29da7741c711,2018-12-14T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.9415,Geopolitical,0.65,9.0,Tesla cuts China prices after tariff drop on U.S.-made cars
+6bc02779e154099b,2018-12-15T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,positive,0.8497,Geopolitical,0.65,8.0,Boeing opens first 737 plant in China amid U.S.-Sino trade war
+dd659123223e067f,2018-12-17T00:00:00Z,reuters_clean,news,AMZN,Amazon,alias,0.9,negative,-0.9151,Operational/Cyber,0.65,7.0,German union calls strike at Amazon warehouses
+b487600a10df53c6,2018-12-20T00:00:00Z,reuters_clean,news,JPM,JPMorgan Chase,alias,0.9,negative,-0.5475,Geopolitical,0.65,7.0,"Global banks chase Asia techs transaction business, as trade war rumbles"
+96e12ee69cdd7260,2019-01-03T00:00:00Z,guardian_clean,news,AAPL,Apple,alias,0.9,negative,-0.9029,Credit Event,0.65,9.0,Apple’s shock downgrade rattles global stock markets
+c8a35f80d8608986,2019-01-03T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,positive,0.8723,Operational/Cyber,0.65,7.0,Apple sales should pick up when U.S.-China strike trade deal: Trump adviser
+591dd7a4c56144eb,2019-01-04T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,positive,0.4167,Geopolitical,0.65,7.0,Tesla urges tariff exemption for Chinese-made car computer 'brain'
+faf0c7e5b87072d4,2019-01-04T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.9347,Geopolitical,0.65,9.0,"Court battle, trade war and 5G spell tough 2019 for Apple in China"
+bbe4861659310310,2019-01-30T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,positive,0.9081,Geopolitical,0.65,8.0,Apple services business grows; CEO Cook says China tensions ease
+b094b78bdead3c65,2019-02-13T00:00:00Z,reuters_clean,news,JNJ,Johnson & Johnson,alias,0.9,negative,-0.9213,Credit Event,0.65,9.0,Johnson & Johnson supplier seeks bankruptcy over talc lawsuits
+f02f86ccbfe2609f,2019-02-25T00:00:00Z,reuters_clean,news,WMT,Walmart,alias,0.9,negative,-0.9272,Operational/Cyber,0.65,7.0,Group of Walmart Mexico workers threatens strike for higher pay
+da994ee94b214a08,2019-03-06T00:00:00Z,reuters_clean,news,AMZN,Amazon,alias,0.9,positive,0.653,Macroeconomic,0.65,7.0,Exclusive: Mexican central bank in talks with Amazon about new mobile payments
+bb217e1415a0bc2e,2019-03-12T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,negative,-0.8945,Macroeconomic,0.65,8.0,"S&P, Nasdaq rise on tame inflation data; Dow felled by Boeing"
+278104c63499bfaa,2019-03-12T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,negative,-0.9073,Geopolitical,0.65,8.0,Fed sanctions former Goldman Sachs bankers over 1MDB money-laundering scandal
+e892a90a156176c4,2019-03-19T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,negative,-0.8588,Merger/Acquisition,0.65,7.0,German lawmakers challenge deputy finance minister's Goldman link in bank merger
+46504ada85c65154,2019-03-29T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,positive,0.7749,Geopolitical,0.65,8.0,Exclusive: Goldman’s China-backed fund bucks trade tensions to buy U.S. firm
+a7913c830bd40e08,2019-04-10T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,positive,0.9231,Geopolitical,0.65,8.0,"Airbus-Boeing trade war would benefit Chinese planemaker, France says"
+07b200e93b47532a,2019-05-03T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,positive,0.6761,Geopolitical,0.65,8.0,U.S. rejects Tesla bid for tariff exemption for Autopilot 'brain'
+613108a558ebeded,2019-05-16T00:00:00Z,reuters_clean,news,WMT,Walmart,alias,0.9,positive,0.9008,Geopolitical,0.65,8.0,Walmart says higher China tariffs will increase prices for U.S. shoppers
+89050d4dfe1fa62a,2019-05-21T00:00:00Z,guardian_clean,news,BA,Boeing,alias,0.9,negative,-0.9486,Operational/Cyber,0.65,7.0,Boeing dismissed chance of 'bird strike' that may have caused second 737 Max crash
+6fd6c1ad8f57cc47,2019-05-31T00:00:00Z,reuters_clean,news,CVX,Chevron,alias,0.9,negative,-0.9508,Geopolitical,0.65,9.0,Chevron says new U.S. tariffs may impair development of Mexican market
+e8eeb3b811d932ab,2019-06-03T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,negative,-0.8687,Geopolitical,0.65,8.0,Goldman Sachs sees U.S. trade war with China and Mexico escalating
+5d12277857b2e9d4,2019-06-06T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,negative,-0.8576,Merger/Acquisition,0.65,7.0,FCA-Renault merger collapse a blow for Goldman and its alumni network: sources
+ee5052636a49c021,2019-06-07T00:00:00Z,reuters_clean,news,WMT,Walmart,alias,0.9,negative,-0.5655,Geopolitical,0.65,7.0,Walmart 'concerned' U.S. tariffs will raise Mexican fresh produce prices
+d269f9c576703dc5,2019-06-17T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,negative,-0.9314,Geopolitical,0.65,9.0,"Boeing crisis, trade tensions cast pall over air show"
+5a6b0b37af9179a6,2019-06-19T00:00:00Z,reuters_clean,news,MSFT,Microsoft,alias,0.9,negative,-0.543,Geopolitical,0.65,7.0,"Dell, HP, Microsoft, Intel oppose proposed tariffs on laptops, tablets"
+b5e366f7e9988bdb,2019-06-21T00:00:00Z,reuters_clean,news,XOM,Exxon Mobil,alias,0.9,negative,-0.8834,Geopolitical,0.65,8.0,"Exclusive: Exxon's $53 billion Iraq deal hit by contract snags, Iran tensions - sources"
+5551fa13b8bebbad,2019-06-24T00:00:00Z,reuters_clean,news,TSLA,Tesla,alias,0.9,negative,-0.5662,Geopolitical,0.65,7.0,U.S. waives tariffs on Japanese aluminum for Tesla battery cells
+fb86c2cd29b47fad,2019-07-08T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.7954,Macroeconomic,0.65,7.0,"Wall St. drops as Apple falls, Fed eyed"
+95e7d97cf51d310b,2019-07-10T00:00:00Z,reuters_clean,news,WMT,Walmart,alias,0.9,negative,-0.94,Operational/Cyber,0.65,7.0,Workers at Chilean Walmart retailers strike over wages
+a29989337211eee3,2019-07-15T00:00:00Z,reuters_clean,news,WMT,Walmart,alias,0.9,negative,-0.8724,Operational/Cyber,0.65,7.0,Walmart Chile to resume talks with union amid strike
+6b3bd54104edbb7f,2019-07-15T00:00:00Z,reuters_clean,news,AMZN,Amazon,alias,0.9,negative,-0.9406,Operational/Cyber,0.65,7.0,"Amazon workers in Germany strike over pay, Verdi union says"
+2cff9f7f5d0590ab,2019-07-16T00:00:00Z,guardian_clean,news,AMZN,Amazon,alias,0.9,negative,-0.9468,Merger/Acquisition,0.65,7.0,Whole Foods workers say conditions deteriorated after Amazon takeover
+88e952f7ff78af38,2019-07-30T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,positive,0.5973,Geopolitical,0.65,7.0,"Apple wants to make high-end computers in U.S., needs tariff relief - Cook"
+729c73e2b6fbf939,2019-08-02T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.7431,Geopolitical,0.65,8.0,U.S. tariff threat may compound Apple's iPhone woes: BofA
+f52ca4f201864d48,2019-08-02T00:00:00Z,reuters_clean,news,BAC,Bank of America,alias,0.9,negative,-0.7431,Geopolitical,0.65,8.0,U.S. tariff threat may compound Apple's iPhone woes: BofA
+735395add6b180f4,2019-08-11T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,negative,-0.9347,Geopolitical,0.65,9.0,Goldman Sachs economists say fears rise that U.S.-China trade war leading to recession
+480475d9643e7103,2019-08-15T00:00:00Z,reuters_clean,news,WMT,Walmart,alias,0.9,positive,0.4661,Geopolitical,0.65,7.0,Walmart's earnings beat allays worry over tariff impact for now
+855fae14f2695d2d,2019-08-19T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.5572,Geopolitical,0.65,7.0,"Apple CEO warns Trump about China tariffs, Samsung competition"
+f7139144e589163b,2019-08-28T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.7811,Geopolitical,0.65,8.0,Apple's data shows a deepening dependence on China as Trump's tariffs loom
+657070061b35c8d0,2019-08-29T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,positive,0.8858,Geopolitical,0.65,7.0,Exclusive: India to woo foreign firms like Apple to capitalize on U.S.-China trade war
+4d97099fb8d44f2b,2019-09-04T00:00:00Z,reuters_clean,news,AMZN,Amazon,alias,0.9,positive,0.9053,Geopolitical,0.65,8.0,Amazon may need to raise prices to offset latest tariff blow: BofA
+9b534eb53d758243,2019-09-04T00:00:00Z,reuters_clean,news,BAC,Bank of America,alias,0.9,positive,0.9053,Geopolitical,0.65,8.0,Amazon may need to raise prices to offset latest tariff blow: BofA
+4566043e7dd10892,2019-09-13T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.9081,Geopolitical,0.65,8.0,"S&P edges lower as Apple weighs, trade tensions ease"
+39972f2590404e32,2019-09-20T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,positive,0.7774,Geopolitical,0.65,8.0,U.S. trade regulators approve some Apple tariff exemptions amid broader reprieve
+87b878494d963274,2019-09-23T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,positive,0.9111,Geopolitical,0.65,8.0,Apple to make new Mac Pro PCs in U.S. after some tariff exemptions
+a0c6899eb0262ae2,2019-10-01T00:00:00Z,reuters_clean,news,JPM,JPMorgan Chase,alias,0.9,negative,-0.8372,Macroeconomic,0.65,7.0,"Too big to lend? JPMorgan cash hit Fed limits, roiling U.S. repos"
+1a21309f2ef006b7,2019-10-15T00:00:00Z,reuters_clean,news,BAC,Bank of America,alias,0.9,positive,0.8669,Macroeconomic,0.65,7.0,Buffett's Berkshire seeks Fed leeway to boost BofA bet: Fed
+fe578978e08ef2f6,2019-10-18T00:00:00Z,reuters_clean,news,JPM,JPMorgan Chase,alias,0.9,negative,-0.9451,Operational/Cyber,0.65,7.0,General Motors strike to slash U.S. October payrolls: JPMorgan
+701cb859b462bdf0,2019-10-25T00:00:00Z,reuters_clean,news,JNJ,Johnson & Johnson,alias,0.9,negative,-0.9475,Operational/Cyber,0.65,7.0,Big U.S. retailers pull 22-ounce J&J baby powder off shelves after recall
+43057d0ad22d0f44,2019-10-30T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,positive,0.9209,Geopolitical,0.65,7.0,"Apple CEO's handling of trade war has helped buoy shares, investors say"
+d048a10fdac3d8da,2019-12-03T00:00:00Z,reuters_clean,news,BAC,Bank of America,alias,0.9,negative,-0.8822,Macroeconomic,0.65,8.0,Federal Reserve terminates 2015 forex enforcement action against Bank of America
+dd9a08a1a4d917d7,2019-12-09T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.9351,Geopolitical,0.65,9.0,"Wall St. falls as Apple, health shares drag, tariff deadline looms"
+d6724803e1fa5615,2019-12-13T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,negative,-0.8863,Geopolitical,0.65,8.0,Boeing bows out of multibillion-dollar Minuteman missile replacement competition
+afa245b75d7f09a2,2019-12-16T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,negative,-0.9526,Operational/Cyber,0.65,7.0,Stocks of Boeing and its suppliers fall on reports of 737 MAX production halt
+e27a4e3d905260ab,2019-12-17T00:00:00Z,reuters_clean,news,BA,Boeing,alias,0.9,negative,-0.9582,Macroeconomic,0.65,8.0,Boeing's 737 production halt could dent U.S. first-quarter GDP
+a1c319694b53160b,2019-12-23T00:00:00Z,guardian_clean,news,BA,Boeing,alias,0.9,negative,-0.8077,Geopolitical,0.65,8.0,Business live Boeing's CEO ousted; China slashes tariffs - as it happened
+6a2636e2b3b235ad,2020-01-13T00:00:00Z,reuters_clean,news,WMT,Walmart,alias,0.9,negative,-0.9172,Credit Event,0.65,9.0,Walmart sacks 56 executives in India as part of restructuring
+a62744e98588c262,2020-02-04T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,negative,-0.6517,Macroeconomic,0.65,7.0,Federal Reserve bars former Goldman Sachs executive for role in 1MDB scandal
+d4df733b07d3d7bf,2020-02-14T00:00:00Z,guardian_clean,news,AMZN,Amazon,alias,0.9,negative,-0.9271,Geopolitical,0.65,8.0,Pentagon ordered to halt work on $10bn 'war cloud' project after Amazon protest
+653dd2eb7f97fc55,2020-02-18T00:00:00Z,reuters_clean,news,AAPL,Apple,alias,0.9,negative,-0.9559,Operational/Cyber,0.65,7.0,"Coronavirus threatens Apple supply chain, sales; shares drop"
+e6e8a0638d5ca5d9,2020-02-20T00:00:00Z,guardian_clean,news,AMZN,Amazon,alias,0.9,negative,-0.9417,Operational/Cyber,0.65,7.0,Animals farmed Meat company faces heat over ‘cattle laundering’ in Amazon supply chain
+249dac0405965890,2020-02-27T00:00:00Z,reuters_clean,news,MSFT,Microsoft,alias,0.9,negative,-0.906,Operational/Cyber,0.65,7.0,Microsoft shares slip after warning of coronavirus hit to supply chain
+1a939b1998c00612,2020-03-03T00:00:00Z,reuters_clean,news,CVX,Chevron,alias,0.9,positive,0.7179,Geopolitical,0.65,8.0,Chevron shows off war chest by pledging up to $80 billion in returns
+6b074cf492c13c98,2020-03-04T00:13:00Z,cnbc_clean,news,CVX,Chevron,alias,0.9,positive,0.8616,Geopolitical,0.65,8.0,Chevron CEO says he's hearing 'optimistic talk' around OPEC oil production cut
+9773e17b8f4afec0,2020-03-09T00:00:00Z,reuters_clean,news,GS,Goldman Sachs,alias,0.9,negative,-0.9362,Geopolitical,0.65,9.0,"Goldman cuts Brent forecasts to $30 on price war, virus impact"
+95578ec98afd51bb,2020-03-16T00:00:00Z,reuters_clean,news,JPM,JPMorgan Chase,alias,0.9,negative,-0.9051,Operational/Cyber,0.65,7.0,JPMorgan says it resolved outage in trading platform last week
+e7b7661a1530403c,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0155,Other,0.3,1.0,Peter Preston on press and broadcasting Paul Dacre and pay: how best to spend the Mail millions?
+b2cb433ba23ffe69,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.1252,Other,0.3,1.0,Why business could prosper under a Corbyn government
+aca9b12210391f5f,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.4121,Other,0.3,1.0,Youngest staff to be given UK workplace pensions as qualifying age is cut
+924ee37e24e09335,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.2489,Other,0.3,1.0,Grogonomics This year has been about companies and jobs. Will 2018 be about wages?
+c2579491290d9862,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.3025,Other,0.3,1.0,Butchers carve out a niche as UK shoppers opt for indie stores
+ddb6fd1a8303edef,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.1133,Other,0.3,1.0,David Cameron to lead £750m UK-China investment initiative
+53ca12e7cbd9f69e,2017-12-17T00:00:00Z,guardian_clean,news,,,sector_level,0.5,neutral,0.0812,Other,0.3,2.0,US mall operators must buy into e-retail and new use of space
+b3ced8e5f14eca02,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.074,Other,0.3,1.0,Global shopping centre giants go on a Christmas buying spree
+bed7198000d42b5c,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.8459,Other,0.3,1.0,Alabama unions see Doug Jones's win as a victory for organized labor
+07b7815d3a52092c,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.7354,Other,0.3,1.0,Britons set new gin record after buying 47m bottles this year
+e2939a1bbf283009,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.8926,Other,0.3,1.0,British Steel pension scheme members ‘preyed on’ by financial firms
+cad234a36d508473,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.3939,Other,0.3,1.0,‘Going to the Furniture Ombudsman about our sofa was a waste of time’
+5088ddde3be1e9a3,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.4767,Other,0.3,1.0,"Uber stole trade secrets, bribed foreign officials and spied on rivals, filing says"
+e51ad22894f71968,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9431,Other,0.3,1.0,Hundreds to lose jobs as Britvic shuts down Norwich factory site
+b80da7c8c345df85,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.5845,Other,0.3,1.0,How investing in solar energy can create a brighter future for Africa
+0518832c81940592,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.042,Other,0.3,1.0,Cryptocurrencies: City watchdog to investigate new fundraising trend
+d8bcc7b20baf3d9b,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0455,Other,0.3,1.0,Unilever sells household name spreads to KKR for £6bn
+0e7c5818498c3923,2017-12-17T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0614,Other,0.3,1.0,The Guardian view on Ryanair’s model: a union-friendly company?
+1ca9253b779def6d,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.2975,Other,0.3,1.0,France saves Marquis de Sade’s 120 Days of Sodom from auction
+cfe9b810d8745e1d,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.4952,Other,0.3,1.0,Business live Bitcoin bubble warnings grow louder as futures trading begins on CME – as it happened
+a6d30d27ca517a7f,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.7686,Other,0.3,1.0,EU investigates Ikea after Dutch deals reduce tax bill by €1bn
+86f97e117c26408a,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0349,Other,0.3,1.0,Hermes delivery driver's diary shows flipside to Christmas shopping
+077025880b4ddac1,2017-12-18T00:00:00Z,guardian_clean,news,,,sector_level,0.5,positive,0.5683,Other,0.3,2.0,"UK manufacturing order books near three-decade high, says CBI"
+f10e023f7dbf1d3d,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.6685,Other,0.3,1.0,Atlanta airport: power restored but flight delays expected for days
+5731fac82c65936f,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.1639,Other,0.3,1.0,Trump's tax bill has nothing to do with economics. It's brute-force politics
+7b2d5151518d2a0f,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.817,Other,0.3,1.0,Ryanair has recognised unions. Hell must have frozen over
+2f195e18b43aa711,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.4737,Other,0.3,1.0,Revealed: the government email telling HS2 not to make extra £1.76m payouts
+4fa887413d4a1165,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0423,Other,0.3,1.0,Bumper business Christmas quiz 2017
+294b5505d068bf70,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.7669,Other,0.3,1.0,"Building regulations unfit for purpose, Grenfell review finds"
+3182567d2b729131,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.036,Other,0.3,1.0,Brace yourself for the next Brexit faultline: the battle over transition
+b3e74d088ed6a372,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.1455,Other,0.3,1.0,Christmas tree cutters' labor fight shines light on holiday season's forgotten workers
+b2b0053d6b94b328,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.025,Other,0.3,1.0,How the American government slowly became a business
+852000aaaf96c5cb,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.949,Other,0.3,1.0,Spread-betting firms' shares plunge as EU watchdog plans crackdown
+6e94176f82eafff6,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.1462,Earnings,0.65,2.0,Global coal consumption forecast to slow
+b6dec5887d71c066,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9552,Other,0.3,1.0,"Desperate UK homeowners are cutting prices, says Zoopla"
+50bbba4415f63702,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0972,Other,0.3,1.0,‘They stole the soul of the city’: how Warsaw's reprivatisation is causing chaos
+25f728dc1a2eeb79,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0,Other,0.3,1.0,Deck the stalls: Christmas markets and pop ups – in pictures
+6cad9846cd4cecd0,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.2552,Other,0.3,1.0,Weak pound boosts English sparkling wine sales before Christmas
+4980a06dc6f8b2db,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.9123,Other,0.3,1.0,Boost for fossil fuel divestment as UK eases pension rules
+cf94607dc21ac19c,2017-12-18T00:00:00Z,guardian_clean,news,,,sector_level,0.5,negative,-0.9497,Other,0.3,2.0,UK banks face fines as immigration checks on account holders loom
+e92746016b41fe7e,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0069,Other,0.3,1.0,Universal basic income is no panacea for us – and Labour shouldn’t back it
+44497c7d29a8d18a,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.8537,Other,0.3,1.0,"Brexit will usher in a dark chapter for new British authors, warns publisher"
+e5911c045fe00f03,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9002,Other,0.3,1.0,Adani scraps $2bn deal to outsource Carmichael coalmine operation
+ea4c77162b6d1e04,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0994,Other,0.3,1.0,Curbs on capitalism in the 21st century
+48715d7f26c1355b,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0735,Other,0.3,1.0,LSE chairman set to see off activist's attempt to oust him
+ddb8be73f34c5eba,2017-12-18T00:00:00Z,guardian_clean,news,,,sector_level,0.5,negative,-0.875,Other,0.3,2.0,UK banks tell May: a Canada-style Brexit deal is not good enough
+aaa4637a283ffbaf,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.8502,Other,0.3,1.0,Business leader The UK jobs engine isn’t working any more
+1a6be671cbdfd831,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.4878,Other,0.3,1.0,"Trump EPA rule change exploits taxpayers for mine cleanup, critics say"
+64da646911bfafe6,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.7873,Other,0.3,1.0,Waitrose urged to stop selling Shetland scallops over dredging concerns
+9a8fc5fce0575492,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0845,Other,0.3,1.0,Economics viewpoint Heretics welcome! Economics needs a new Reformation
+094a3189190fd128,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0389,Other,0.3,1.0,"Halifax cover: £1,227 if you are loyal, £370 if you're new"
+d487ac6836dc021c,2017-12-18T00:00:00Z,guardian_clean,news,,,sector_level,0.5,neutral,-0.028,Other,0.3,1.0,Is Monzo the Facebook of banking?
+99fa3906a58428d3,2017-12-18T00:00:00Z,guardian_clean,news,,,sector_level,0.5,negative,-0.6589,Other,0.3,2.0,Venue of last resort: the climate lawsuits threatening the future of big oil
+c31ef18e5bcb73d8,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.1665,Other,0.3,1.0,Old and vulnerable people and financial whiz-kids don’t mix
+9a2d2ac6a7392ba6,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.1731,Other,0.3,1.0,William Keegan's in my view There is hope: Brexit has few zealots and many floating voters
+c3d3d1062999926f,2017-12-18T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.1755,Other,0.3,1.0,Observer business agenda Bring a little Christmas cheer with a cryptocurrency
+2f64af9d566941d7,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9605,Other,0.3,1.0,"House prices to fall in London and south-east in 2018, say surveyors"
+a7a10fe09651e757,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.053,Other,0.3,1.0,Nils Pratley on finance The Pension Protection Fund aims to protect pensions – not management
+d89910de1fe7a801,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.327,Other,0.3,1.0,Creditors desert Poundland owner amid South Africa accounting scandal
+150db7d0064f5ed7,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0619,Other,0.3,1.0,Delving deeper into an economics Reformation
+16fa9f08eb41b2d4,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9284,Other,0.3,1.0,Tenants lose out after landlord pressure halves UK home insulation cap
+e00b47c0c0ced8e0,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9496,Other,0.3,1.0,Undercover in the chicken industry Tesco found issues at second 2 Sisters plant as scandal-hit site was closed
+bce0ff13e5ae8be1,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.1302,Other,0.3,1.0,"First pilots, now cabin crew – Ryanair to recognise other unions"
+d0a8079ddfeaffec,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.8446,Other,0.3,1.0,UK pensions lifeboat to block Toys R Us survival plan
+48476654c9dcbc2f,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.3804,Other,0.3,1.0,Business live World markets driven to record highs by Trump tax bill – as it happened
+2f744829543479dd,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0286,Other,0.3,1.0,"Bitcoin not a threat to financial stability, say European economists"
+569b3a850442b1a0,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0092,Other,0.3,1.0,Switch your UK mobile network with a text message from 2019
+1e347c599f4e172c,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0287,Other,0.3,1.0,When will we see the world's first trillionaire?
+6b7235da186bb097,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.5417,Other,0.3,1.0,China aims to drastically cut greenhouse gas emissions through trading scheme
+f324b42a21b3777f,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9542,Other,0.3,1.0,"Toys R Us UK faces collapse with loss of all 3,200 jobs"
+9aa67f7a05aa2826,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.8323,Other,0.3,1.0,Universal Music snaps up UK record labels ZTT and Stiff Records
+a0be1176321e6c73,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.5016,Other,0.3,1.0,"Nils Pratley on finance Is this the end for binary options, the world's worst financial product?"
+2e0b337f9313740d,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.2316,Other,0.3,1.0,"Come to debtors’ court. See how ministers destroy businesses, and lives"
+0604557fa72179d1,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.8127,Other,0.3,1.0,Top British firms named and shamed on PM's fat cat pay list
+4c5ab2e9dfac53bd,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0376,Other,0.3,1.0,"UK cannot have a special deal for the City, says EU's Brexit negotiator"
+7d16e5300b234221,2017-12-19T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0386,Other,0.3,1.0,The Guardian view on Theresa May and Brexit: time to get off her fantasy island
+b0223572fb52b52e,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.8166,Other,0.3,1.0,Hedge funds fail to stop 'billion-dollar brain' City analyst's deportation
+e2aa6d506ba1fea4,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.2767,Other,0.3,1.0,A victory for workers over Uber. But beware the Brexit roadblock
+80cf7558f22ad311,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0021,Other,0.3,1.0,European court rules champagne sorbet can keep the sparkling name
+1f48e0674249e875,2017-12-20T00:00:00Z,guardian_clean,news,,,sector_level,0.5,positive,0.6692,Other,0.3,2.0,"Business live Bank of England Carney says UK is banker for Europe, IMF welcomes Brexit progress –as it happened"
+e1bdb9c5c420333c,2017-12-20T00:00:00Z,guardian_clean,news,,,sector_level,0.5,neutral,0.0624,Other,0.3,1.0,Bank of England to allow EU banks to keep UK operations unchanged after Brexit
+5e9bd9e625ff85d2,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.2549,Other,0.3,1.0,"Gloomy Brexit forecasts for UK are coming true, says IMF"
+35477b77185634be,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9528,Other,0.3,1.0,"Nearly 45,000 UK retailers in financial distress this Christmas"
+6cb6cdbe5cef01cd,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9114,Other,0.3,1.0,Thousands of tonnes of dangerous mining waste dumped in wrong place
+c0c7774c8681815b,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.1722,Other,0.3,1.0,Gove: UK would not compromise with US on food standards
+5b150e8dc4a0fe97,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.4292,Other,0.3,1.0,Uber to face stricter EU regulation after ECJ rules it is transport firm
+92ad8eec7fd56db4,2017-12-20T00:00:00Z,guardian_clean,news,,,sector_level,0.5,negative,-0.3088,Other,0.3,2.0,France bans fracking and oil extraction in all of its territories
+40690df6f1c3358b,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.1333,Other,0.3,1.0,High-speed broadband to be legal right for UK homes and businesses
+3db453ce96d885bc,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.0265,Other,0.3,1.0,Could buying Christmas jewellery be funding genocide?
+f75f7f02de58b005,2017-12-20T00:00:00Z,guardian_clean,news,,,sector_level,0.5,negative,-0.6383,Other,0.3,2.0,‘Drugs are too expensive for the NHS – and people are paying with their lives’
+3fa88bb91b1b7afc,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,positive,0.383,Other,0.3,1.0,Senate approves most drastic changes to US tax code in 30 years
+01b6fec232e8da4f,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9077,Other,0.3,1.0,"UK's Christmas workers earning less than 10 years ago, study shows"
+3742c6407dc778f4,2017-12-20T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.5429,Other,0.3,1.0,"Parts of UK that voted Brexit are most exposed to its effects, report says"
+26d7b670fd6de33f,2017-12-21T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.7869,Other,0.3,1.0,Guardian Brexit watch Brexit helped push down living standards in 2017 – experts debate the data
+938a385e6ed7bf3f,2017-12-21T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.6355,Other,0.3,1.0,Brexit data snapshot How has the Brexit vote affected the economy? December verdict
+e4d9c49f1863066f,2017-12-21T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.2764,Other,0.3,1.0,Guardian Brexit watch Brexit economy: a turbulent year ends on steadier ground
+842068db99ea2ac8,2017-12-21T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,0.093,Other,0.3,1.0,"The disruptors Lab-grown luxuries: cruelty-free silk, diamonds, and leather offer an ethical alternative"
+bd44b79b2fb98673,2017-12-21T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.0869,Other,0.3,1.0,Candy brothers win high court battle
+7033b7a49239e56c,2017-12-21T00:00:00Z,guardian_clean,news,,,none,0.0,negative,-0.9034,Other,0.3,1.0,'Nut rage': court upholds suspended sentence for Korean Air executive
+b51e7aabd02a97dc,2017-12-21T00:00:00Z,guardian_clean,news,,,none,0.0,neutral,-0.2058,Other,0.3,1.0,Toys R Us holds last-minute talks with pensions body

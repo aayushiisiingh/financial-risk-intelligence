@@ -1,0 +1,743 @@
+{
+  "SYNTHETIC": true,
+  "note": "Fictional exposures for demonstration only. Not real credit views.",
+  "exposures": [
+    {
+      "exposure_id": "EXP-001",
+      "counterparty": "Corporate Financials A1",
+      "linked_ticker": "BAC",
+      "sector": "Financials",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "BB",
+      "currency": "USD",
+      "notional_usd": 15000000.0,
+      "market_value_usd": 14850000.0,
+      "maturity_date": "2027-10-03",
+      "risk_params": {
+        "pd": 0.025,
+        "lgd": 0.45,
+        "ead": 15000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-002",
+      "counterparty": "Corporate Industrials B2",
+      "linked_ticker": "BA",
+      "sector": "Industrials",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "BB",
+      "currency": "USD",
+      "notional_usd": 5000000.0,
+      "market_value_usd": 4950000.0,
+      "maturity_date": "2031-07-07",
+      "risk_params": {
+        "pd": 0.025,
+        "lgd": 0.45,
+        "ead": 5000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-003",
+      "counterparty": "Corporate Technology C3",
+      "linked_ticker": "NVDA",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "A",
+      "currency": "USD",
+      "notional_usd": 50000000.0,
+      "market_value_usd": 49500000.0,
+      "maturity_date": "2034-03-16",
+      "risk_params": {
+        "pd": 0.002,
+        "lgd": 0.45,
+        "ead": 50000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-004",
+      "counterparty": "Trading Book Equity Financials 4",
+      "linked_ticker": "GS",
+      "sector": "Financials",
+      "country": "US",
+      "asset_type": "equity",
+      "rating": "AA",
+      "currency": "USD",
+      "notional_usd": 50000000.0,
+      "market_value_usd": 20000000.0,
+      "maturity_date": "2028-01-18",
+      "risk_params": {
+        "position": "long"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-005",
+      "counterparty": "Corporate Technology E5",
+      "linked_ticker": "NVDA",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "AA",
+      "currency": "USD",
+      "notional_usd": 15000000.0,
+      "market_value_usd": 14706151.47,
+      "maturity_date": "2028-02-29",
+      "risk_params": {
+        "coupon": 0.056,
+        "modified_duration": 7.13,
+        "spread_duration": 6.77
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-006",
+      "counterparty": "Corporate Energy F6",
+      "linked_ticker": "CVX",
+      "sector": "Energy",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "AA",
+      "currency": "USD",
+      "notional_usd": 15000000.0,
+      "market_value_usd": 15373985.51,
+      "maturity_date": "2031-04-03",
+      "risk_params": {
+        "coupon": 0.038,
+        "modified_duration": 3.26,
+        "spread_duration": 3.1
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-007",
+      "counterparty": "Corporate Industrials G7",
+      "linked_ticker": "BA",
+      "sector": "Industrials",
+      "country": "US",
+      "asset_type": "irs",
+      "rating": "BB",
+      "currency": "USD",
+      "notional_usd": 50000000.0,
+      "market_value_usd": -336597.51,
+      "maturity_date": "2029-03-09",
+      "risk_params": {
+        "dv01": 23353.5,
+        "position": "pay_fixed"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-008",
+      "counterparty": "Corporate Energy H8",
+      "linked_ticker": "CVX",
+      "sector": "Energy",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "B",
+      "currency": "USD",
+      "notional_usd": 50000000.0,
+      "market_value_usd": 49500000.0,
+      "maturity_date": "2033-07-07",
+      "risk_params": {
+        "pd": 0.07,
+        "lgd": 0.45,
+        "ead": 50000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-009",
+      "counterparty": "Corporate Consumer I9",
+      "linked_ticker": "WMT",
+      "sector": "Consumer",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "AAA",
+      "currency": "USD",
+      "notional_usd": 10000000.0,
+      "market_value_usd": 9900000.0,
+      "maturity_date": "2027-08-18",
+      "risk_params": {
+        "pd": 0.0003,
+        "lgd": 0.45,
+        "ead": 10000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-010",
+      "counterparty": "FX Counterparty J10",
+      "linked_ticker": "BAC",
+      "sector": "Financials",
+      "country": "US",
+      "asset_type": "fx_forward",
+      "rating": "A",
+      "currency": "USD",
+      "notional_usd": 5000000.0,
+      "market_value_usd": -14368.67,
+      "maturity_date": "2029-08-20",
+      "risk_params": {
+        "delta_notional": 5000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-011",
+      "counterparty": "Corporate Energy K11",
+      "linked_ticker": "CVX",
+      "sector": "Energy",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "B",
+      "currency": "USD",
+      "notional_usd": 25000000.0,
+      "market_value_usd": 24872736.27,
+      "maturity_date": "2028-11-14",
+      "risk_params": {
+        "coupon": 0.0374,
+        "modified_duration": 3.59,
+        "spread_duration": 3.41
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-012",
+      "counterparty": "Corporate Financials L12",
+      "linked_ticker": "GS",
+      "sector": "Financials",
+      "country": "US",
+      "asset_type": "irs",
+      "rating": "BB",
+      "currency": "USD",
+      "notional_usd": 25000000.0,
+      "market_value_usd": 248662.89,
+      "maturity_date": "2033-10-24",
+      "risk_params": {
+        "dv01": 9992.51,
+        "position": "pay_fixed"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-013",
+      "counterparty": "Corporate Consumer M13",
+      "linked_ticker": "KO",
+      "sector": "Consumer",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "AAA",
+      "currency": "USD",
+      "notional_usd": 5000000.0,
+      "market_value_usd": 5022192.49,
+      "maturity_date": "2028-07-01",
+      "risk_params": {
+        "coupon": 0.0348,
+        "modified_duration": 2.92,
+        "spread_duration": 2.77
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-014",
+      "counterparty": "Corporate Healthcare N14",
+      "linked_ticker": "JNJ",
+      "sector": "Healthcare",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "BBB",
+      "currency": "USD",
+      "notional_usd": 25000000.0,
+      "market_value_usd": 25692156.76,
+      "maturity_date": "2033-12-13",
+      "risk_params": {
+        "coupon": 0.0459,
+        "modified_duration": 7.98,
+        "spread_duration": 7.58
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-015",
+      "counterparty": "Corporate Technology O15",
+      "linked_ticker": "NVDA",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "B",
+      "currency": "USD",
+      "notional_usd": 5000000.0,
+      "market_value_usd": 4950000.0,
+      "maturity_date": "2033-04-16",
+      "risk_params": {
+        "pd": 0.07,
+        "lgd": 0.45,
+        "ead": 5000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-016",
+      "counterparty": "FX Counterparty P16",
+      "linked_ticker": "GS",
+      "sector": "Financials",
+      "country": "US",
+      "asset_type": "fx_forward",
+      "rating": "A",
+      "currency": "USD",
+      "notional_usd": 5000000.0,
+      "market_value_usd": -17092.11,
+      "maturity_date": "2030-07-24",
+      "risk_params": {
+        "delta_notional": 5000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-017",
+      "counterparty": "Trading Book Equity Technology 17",
+      "linked_ticker": "NVDA",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "equity",
+      "rating": "B",
+      "currency": "USD",
+      "notional_usd": 15000000.0,
+      "market_value_usd": 6000000.0,
+      "maturity_date": "2032-11-18",
+      "risk_params": {
+        "position": "long"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-018",
+      "counterparty": "Corporate Consumer R18",
+      "linked_ticker": "AMZN",
+      "sector": "Consumer",
+      "country": "US",
+      "asset_type": "irs",
+      "rating": "B",
+      "currency": "USD",
+      "notional_usd": 15000000.0,
+      "market_value_usd": -104148.22,
+      "maturity_date": "2034-06-08",
+      "risk_params": {
+        "dv01": 6807.47,
+        "position": "pay_fixed"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-019",
+      "counterparty": "Corporate Consumer S19",
+      "linked_ticker": "AMZN",
+      "sector": "Consumer",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "BB",
+      "currency": "USD",
+      "notional_usd": 15000000.0,
+      "market_value_usd": 14850000.0,
+      "maturity_date": "2032-09-30",
+      "risk_params": {
+        "pd": 0.025,
+        "lgd": 0.45,
+        "ead": 15000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-020",
+      "counterparty": "Corporate Technology T20",
+      "linked_ticker": "AAPL",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "A",
+      "currency": "USD",
+      "notional_usd": 15000000.0,
+      "market_value_usd": 15386339.33,
+      "maturity_date": "2029-12-14",
+      "risk_params": {
+        "coupon": 0.0563,
+        "modified_duration": 2.35,
+        "spread_duration": 2.23
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-021",
+      "counterparty": "Corporate Technology U21",
+      "linked_ticker": "NVDA",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "BBB",
+      "currency": "USD",
+      "notional_usd": 5000000.0,
+      "market_value_usd": 4940112.95,
+      "maturity_date": "2033-03-29",
+      "risk_params": {
+        "coupon": 0.0339,
+        "modified_duration": 6.6,
+        "spread_duration": 6.27
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-022",
+      "counterparty": "FX Counterparty V22",
+      "linked_ticker": "JNJ",
+      "sector": "Healthcare",
+      "country": "US",
+      "asset_type": "fx_forward",
+      "rating": "A",
+      "currency": "USD",
+      "notional_usd": 40000000.0,
+      "market_value_usd": 185745.16,
+      "maturity_date": "2034-01-26",
+      "risk_params": {
+        "delta_notional": 40000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-023",
+      "counterparty": "Trading Book Equity Healthcare 23",
+      "linked_ticker": "JNJ",
+      "sector": "Healthcare",
+      "country": "US",
+      "asset_type": "equity",
+      "rating": "B",
+      "currency": "USD",
+      "notional_usd": 15000000.0,
+      "market_value_usd": 6000000.0,
+      "maturity_date": "2031-09-29",
+      "risk_params": {
+        "position": "long"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-024",
+      "counterparty": "Corporate Industrials X24",
+      "linked_ticker": "BA",
+      "sector": "Industrials",
+      "country": "US",
+      "asset_type": "irs",
+      "rating": "BBB",
+      "currency": "USD",
+      "notional_usd": 40000000.0,
+      "market_value_usd": -348779.28,
+      "maturity_date": "2032-05-01",
+      "risk_params": {
+        "dv01": 10420.08,
+        "position": "pay_fixed"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-025",
+      "counterparty": "Corporate Technology Y25",
+      "linked_ticker": "NVDA",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "BB",
+      "currency": "USD",
+      "notional_usd": 10000000.0,
+      "market_value_usd": 10004882.37,
+      "maturity_date": "2033-11-13",
+      "risk_params": {
+        "coupon": 0.0321,
+        "modified_duration": 3.32,
+        "spread_duration": 3.15
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-026",
+      "counterparty": "Corporate Consumer Z26",
+      "linked_ticker": "AMZN",
+      "sector": "Consumer",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "AAA",
+      "currency": "USD",
+      "notional_usd": 15000000.0,
+      "market_value_usd": 14832497.4,
+      "maturity_date": "2028-01-24",
+      "risk_params": {
+        "coupon": 0.0384,
+        "modified_duration": 5.08,
+        "spread_duration": 4.83
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-027",
+      "counterparty": "Trading Book Equity Healthcare 27",
+      "linked_ticker": "JNJ",
+      "sector": "Healthcare",
+      "country": "US",
+      "asset_type": "equity",
+      "rating": "B",
+      "currency": "USD",
+      "notional_usd": 40000000.0,
+      "market_value_usd": 16000000.0,
+      "maturity_date": "2033-09-24",
+      "risk_params": {
+        "position": "long"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-028",
+      "counterparty": "FX Counterparty B28",
+      "linked_ticker": "XOM",
+      "sector": "Energy",
+      "country": "US",
+      "asset_type": "fx_forward",
+      "rating": "BBB",
+      "currency": "USD",
+      "notional_usd": 25000000.0,
+      "market_value_usd": -100767.3,
+      "maturity_date": "2029-05-27",
+      "risk_params": {
+        "delta_notional": -25000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-029",
+      "counterparty": "Corporate Energy C29",
+      "linked_ticker": "CVX",
+      "sector": "Energy",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "BBB",
+      "currency": "USD",
+      "notional_usd": 25000000.0,
+      "market_value_usd": 24750000.0,
+      "maturity_date": "2032-07-03",
+      "risk_params": {
+        "pd": 0.008,
+        "lgd": 0.45,
+        "ead": 25000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-030",
+      "counterparty": "Corporate Industrials D30",
+      "linked_ticker": "BA",
+      "sector": "Industrials",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "B",
+      "currency": "USD",
+      "notional_usd": 50000000.0,
+      "market_value_usd": 49500000.0,
+      "maturity_date": "2034-07-07",
+      "risk_params": {
+        "pd": 0.07,
+        "lgd": 0.45,
+        "ead": 50000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-031",
+      "counterparty": "Trading Book Equity Technology 31",
+      "linked_ticker": "AAPL",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "equity",
+      "rating": "BBB",
+      "currency": "USD",
+      "notional_usd": 50000000.0,
+      "market_value_usd": 20000000.0,
+      "maturity_date": "2031-01-27",
+      "risk_params": {
+        "position": "long"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-032",
+      "counterparty": "Corporate Technology F32",
+      "linked_ticker": "AAPL",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "irs",
+      "rating": "AA",
+      "currency": "USD",
+      "notional_usd": 10000000.0,
+      "market_value_usd": -63302.39,
+      "maturity_date": "2033-04-13",
+      "risk_params": {
+        "dv01": 4243.07,
+        "position": "receive_fixed"
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-033",
+      "counterparty": "Corporate Energy G33",
+      "linked_ticker": "XOM",
+      "sector": "Energy",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "AAA",
+      "currency": "USD",
+      "notional_usd": 25000000.0,
+      "market_value_usd": 24750000.0,
+      "maturity_date": "2033-06-10",
+      "risk_params": {
+        "pd": 0.0003,
+        "lgd": 0.45,
+        "ead": 25000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-034",
+      "counterparty": "Corporate Technology H34",
+      "linked_ticker": "AAPL",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "B",
+      "currency": "USD",
+      "notional_usd": 40000000.0,
+      "market_value_usd": 39600000.0,
+      "maturity_date": "2027-06-08",
+      "risk_params": {
+        "pd": 0.07,
+        "lgd": 0.45,
+        "ead": 40000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-035",
+      "counterparty": "Corporate Technology I35",
+      "linked_ticker": "AAPL",
+      "sector": "Technology",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "AA",
+      "currency": "USD",
+      "notional_usd": 25000000.0,
+      "market_value_usd": 24750000.0,
+      "maturity_date": "2032-09-18",
+      "risk_params": {
+        "pd": 0.0007,
+        "lgd": 0.45,
+        "ead": 25000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-036",
+      "counterparty": "Corporate Energy J36",
+      "linked_ticker": "XOM",
+      "sector": "Energy",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "BBB",
+      "currency": "USD",
+      "notional_usd": 5000000.0,
+      "market_value_usd": 4856081.22,
+      "maturity_date": "2029-02-11",
+      "risk_params": {
+        "coupon": 0.0596,
+        "modified_duration": 4.27,
+        "spread_duration": 4.06
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-037",
+      "counterparty": "Corporate Energy K37",
+      "linked_ticker": "CVX",
+      "sector": "Energy",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "BBB",
+      "currency": "USD",
+      "notional_usd": 50000000.0,
+      "market_value_usd": 48259591.47,
+      "maturity_date": "2033-07-02",
+      "risk_params": {
+        "coupon": 0.0446,
+        "modified_duration": 5.97,
+        "spread_duration": 5.67
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-038",
+      "counterparty": "Corporate Consumer L38",
+      "linked_ticker": "AMZN",
+      "sector": "Consumer",
+      "country": "US",
+      "asset_type": "bond",
+      "rating": "BB",
+      "currency": "USD",
+      "notional_usd": 50000000.0,
+      "market_value_usd": 47700569.35,
+      "maturity_date": "2033-05-07",
+      "risk_params": {
+        "coupon": 0.0394,
+        "modified_duration": 2.37,
+        "spread_duration": 2.25
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-039",
+      "counterparty": "Corporate Energy M39",
+      "linked_ticker": "XOM",
+      "sector": "Energy",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "AAA",
+      "currency": "USD",
+      "notional_usd": 40000000.0,
+      "market_value_usd": 39600000.0,
+      "maturity_date": "2028-03-02",
+      "risk_params": {
+        "pd": 0.0003,
+        "lgd": 0.45,
+        "ead": 40000000.0
+      },
+      "synthetic": true
+    },
+    {
+      "exposure_id": "EXP-040",
+      "counterparty": "Corporate Consumer N40",
+      "linked_ticker": "AMZN",
+      "sector": "Consumer",
+      "country": "US",
+      "asset_type": "loan",
+      "rating": "BB",
+      "currency": "USD",
+      "notional_usd": 5000000.0,
+      "market_value_usd": 4950000.0,
+      "maturity_date": "2029-11-27",
+      "risk_params": {
+        "pd": 0.025,
+        "lgd": 0.45,
+        "ead": 5000000.0
+      },
+      "synthetic": true
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+"""Single source of truth for all data contracts. Change here only with SPEC.md + tests."""
+from __future__ import annotations
+
+from datetime import date, datetime
+from enum import Enum
+from typing import Literal, Optional
+
+from pydantic import BaseModel, Field
+
+
+class EventClass(str, Enum):
+    GEOPOLITICAL = "Geopolitical"
+    MACRO = "Macroeconomic"
+    CREDIT = "Credit Event"
+    MNA = "Merger/Acquisition"
+    PRODUCT = "Product Launch"
+    REGULATORY = "Regulatory/Legal"
+    EARNINGS = "Earnings"
+    OPERATIONAL = "Operational/Cyber"
+    OTHER = "Other"
+
+
+class SourceMeta(BaseModel):
+    type: Literal["news", "social"]
+    name: str
+    url: Optional[str] = None
+    published_at: datetime
+    ingested_at: datetime
+    credibility: float = Field(ge=0, le=1)
+
+
+class EntityRef(BaseModel):
+    ticker: Optional[str] = None
+    name: Optional[str] = None
+    sector: Optional[str] = None
+    match_method: Literal["cashtag", "alias", "fuzzy", "sector_level", "none"] = "none"
+    match_confidence: float = Field(default=0.0, ge=0, le=1)
+
+
+class Sentiment(BaseModel):
+    score: float = Field(ge=-1.0, le=1.0)
+    label: Literal["positive", "neutral", "negative"]
+    confidence: float = Field(ge=0, le=1)
+    model: str
+
+
+class EventInfo(BaseModel):
+    cls: EventClass = Field(alias="class")
+    confidence: float = Field(ge=0, le=1)
+    method: Literal["rules", "zero_shot"]
+
+    model_config = {"populate_by_name": True}
+
+
+class ImpactComponents(BaseModel):
+    severity: float
+    relevance: float
+    abs_sentiment: float
+    credibility: float
+    novelty: float
+
+
+class Impact(BaseModel):
+    score: int = Field(ge=1, le=10)
+    raw: float
+    components: ImpactComponents
+
+
+class RiskEvent(BaseModel):
+    """Engine output: one record per (source item, entity)."""
+    schema_version: str = "1.0"
+    event_id: str
+    dedup_key: str
+    source: SourceMeta
+    text: str
+    entity: EntityRef
+    sentiment: Sentiment
+    event: EventInfo
+    impact: Impact
+
+
+class Exposure(BaseModel):
+    """One line of the SYNTHETIC wholesale book. Not real credit views."""
+    exposure_id: str
+    counterparty: str
+    linked_ticker: Optional[str] = None
+    sector: str
+    country: str = "US"
+    asset_type: Literal["loan", "bond", "irs", "fx_forward"]
+    rating: str
+    currency: str = "USD"
+    notional_usd: float
+    market_value_usd: float
+    maturity_date: date
+    risk_params: dict  # keys depend on asset_type, see SPEC.md
+    synthetic: bool = True
+
+
+class Shocks(BaseModel):
+    equity_pct: float = 0.0
+    rate_bps: float = 0.0
+    credit_spread_bps: float = 0.0
+    pd_multiplier: float = 1.0
+    fx_pct: float = 0.0
+
+
+class Scenario(BaseModel):
+    scenario_id: str
+    trigger: dict
+    shocks: Shocks
+    sector_overlays: dict = {}
+    cooldown_minutes: int = 60
+    rationale: str = ""
+
+
+class StressResult(BaseModel):
+    stress_id: str
+    scenario_id: str
+    triggered_by: list[str]
+    timestamp: datetime
+    portfolio_value_before: float
+    portfolio_value_after: float
+    delta: float
+    delta_pct: float
+    expected_loss_change: float
+    by_asset_type: dict[str, float]
+    by_sector: dict[str, float]
+    by_exposure: list[dict]
+    assumptions: list[str]
